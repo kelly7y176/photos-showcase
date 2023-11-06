@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="logo">logo</div>
+
+    <div class="line"></div>
+
+    <div class="container">
+
+
+        <div class=" image1" >
+            <a href="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.webp?b=1&s=170667a&w=0&k=20&c=-UWLqQI8oIx2-sOdWemeJ4Hy1hGZi1UPy-qcivJXgyM=">
+                <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.webp?b=1&s=170667a&w=0&k=20&c=-UWLqQI8oIx2-sOdWemeJ4Hy1hGZi1UPy-qcivJXgyM=" alt="image01">
+            </a>
+        
+            
+        
+        </div>
+
+        <div class= "image2">
+            <a href="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?cs=srgb&dl=pexels-jaime-reimer-2662116.jpg&fm=jpg"><img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?cs=srgb&dl=pexels-jaime-reimer-2662116.jpg&fm=jpg" alt="image02"></a>
+            
+            
+        
+        </div>
+
+        <div class=" image3">
+            
+            <img src="https://images.pexels.com/photos/2770371/pexels-photo-2770371.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image03">
+            
+        </div>
+
+
+        <div class=" image4">
+            
+                <img src="https://images.unsplash.com/photo-1583778957124-763fd4826122?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3N8ZW58MHx8MHx8fDA%3D" alt="image04">
+            
+        </div>
+
+        <div class="image5" >
+            
+            <img src="https://images.pexels.com/photos/1557652/pexels-photo-1557652.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image05">
+            
+        </div>
+
+        <div class="image6" >
+            
+            <img src="https://images.unsplash.com/photo-1506112573664-1a1b66d93ff3?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dmlld3xlbnwwfHwwfHx8MA%3D%3D" alt="image06">
+            
+        </div>
+
+        <div class=" image7" >
+            
+            <img src="https://images.unsplash.com/photo-1598267410503-d0ef01973f69?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHZpZXd8ZW58MHx8MHx8fDA%3D" alt="image07">
+            
+        </div>
+
+        <div class=" image8">
+            
+            <img src="https://thumbs.dreamstime.com/b/mountain-landscape-hiking-trail-view-beautiful-lakes-ponta-delgada-sao-miguel-island-azores-portugal-75384203.jpg" alt="image08">
+            
+        </div>
+
+    </div>
+
+
+<style>
+* {
+  
+}
+
+
+.logo {
+    font-size: 80px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+    font-family: 'Agbalumo';
+
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    border-bottom:  1px solid black ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    width:400px;
+   
+     
+     
+     
+      
+      
+
+}
+ 
+
+.container {
+   
+    height: 500px;
+    width:800px;
+    
+    gap:1em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    
+    
+}
+
+img {
+    
+    height: 450px;
+    width: 80px;
+    object-fit: cover;  
+    transform: scale(0.95);
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+
+}
+
+img:hover {
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: calc(25% - 20px);
+        
+    }
+    .logo {
+        font-size: 300%;
+    }
+}
+
+
+@media screen  and  (max-width: 200px) {
+    .container {
+        width: calc(50% - 20px);
+        
+
+        
+        
+        
+    }
+    .logo {
+        font-size: 150%;
+    }
+
+   
+}
+
+
+</style>
+    
+</body>
+</html>
